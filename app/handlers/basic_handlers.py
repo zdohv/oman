@@ -6,7 +6,7 @@ router = Router()
  
 @router.message(Command('start')) 
 async def start(message: types.Message): 
-    await message.answer("oma pidr", reply_markup=main_kb) 
+    await message.answer("Oma krutoi", reply_markup=main_kb) 
  
 @router.message(Command('help')) 
 async def help_command(message: types.Message): 
